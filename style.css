@@ -1,0 +1,260 @@
+/* FONTS */
+@import url(//fonts.google.com/specimen/Montserrat?selection.family=Montserrat:400,500,600,700,800,900);
+@import url(//fonts.google.com/specimen/Lato?selection.family=Lato:400,400i,700,700i,900,900i);
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
+
+/* BODY STYLE */
+
+.col-centered {
+    float:none;
+    margin: 0 auto;
+}
+
+h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+p {
+    padding-bottom:10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.line-1 {
+    width: 40px;
+    height: 0px;
+    border: .5px solid #9B9B9B;
+  }
+
+.badge {
+    background-color: transparent;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.63);
+    padding-top: 20px;
+    margin: 0px 0px 0px -5px;
+    font-family: 'Lato', sans-serif;
+}
+
+.badge:hover{
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding-top: 20px;
+    margin: 0px 0px 0px -5px;
+    font-family: 'Lato', sans-serif;
+    color:black;
+}
+
+.logo-text {
+    padding-left: 5px;
+}
+
+
+.navbar-nav {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-item {
+    padding: 0px 0px 0px 20px;
+}
+
+.nav-link {
+    font-family: 'Lato', sans-serif;
+}
+
+span.line {
+    display: inline-block;
+}
+
+span.h3 {
+    display: inline-block;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 0.3s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.2);
+}
+
+section .row {
+    align-content: center;
+}
+
+.nav-copyright {
+    color: rgba(0, 0, 0, 0.514);
+}
+
+.nav-link-container a {
+    color: rgba(0, 0, 0, 0.514);
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-link-container a:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+/* MEDIA QUERIES */
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .row {
+        margin-top: 60px;
+    }
+
+    h3 {
+        font-size: 16px;
+        margin-top: -10px;
+        margin-bottom: -20px;
+    }
+
+    p {
+        font-size:12px;
+        margin-top: -15px;
+        margin-bottom: -20px;
+    }
+
+    .badge {
+        font-size: 12px;
+    }
+
+    .navbar-nav {
+        float: none;
+        text-align: right;
+        margin-top: 10px;
+    }
+    
+    .navbar-item {
+        display: inline-block;
+        float: none;
+        padding-top: 10px;
+    }
+
+    .navbar {
+        margin: 20px 20px 20px 20px;
+    }
+    
+    .nav-link-container {
+        margin: 100px 0px 150px 0px;
+        font-size: 14px;
+    }
+
+    .nav-link-container .nav-item {
+        font-size: 18px;
+        margin-right: 8px;
+        width: 35px;
+        height: 20px
+    }
+ }
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .row {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    h3 {
+        font-size: 20px;
+        margin-top: -10px;
+        margin-bottom: -15px;
+    }
+
+    p {
+        font-size:14px;
+        margin-top: -10px;
+        margin-bottom: -15px;
+    }
+
+    .badge {
+        font-size: 13px;
+    }
+
+    .navbar-nav {
+        float: none;
+        text-align: right;
+        margin-top: 10px;
+    }
+    
+    .navbar-item {
+        display: inline-block;
+        float: none;
+        padding-top: 10px;
+    }
+
+    .navbar {
+        margin: 20px 40px 20px 40px;
+    }
+
+    .nav-link-container {
+        margin: 0px 0px 150px 0px;
+        font-size: 15px;
+    }
+
+    .nav-link-container .nav-item {
+        font-size: 20px;
+        margin-right: 10px;
+        width: 35px;
+        height: 20px
+    }
+    
+ }
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .row {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    h3 {
+        font-size: 28px;
+        margin-top: 20px;
+        margin-bottom: -15px;
+    }
+
+    p {
+        font-size:14px;
+        margin-top: -10px;
+        margin-bottom: -15px;
+    }
+
+    .badge {
+        font-size: 14px;
+    }
+
+    .navbar {
+        margin: 10px 80px 10px 80px;
+    }
+
+    .nav-link-container {
+        margin: 150px 0px 150px 0px;
+        font-size: 18px;
+    }
+
+    .nav-link-container .nav-item {
+        font-size: 23px;
+        margin-right: 10px;
+        width: 40px;
+        height: 35px
+    }
+}
+
+
+
+

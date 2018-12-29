@@ -1,0 +1,46 @@
+/* .nav {
+    height: 50%;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px 0px 20px 0px;
+} */
+
+nav {
+    height: 15%;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar {
+    height: 15%;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.row {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.col-centered {
+    float:none;
+    margin: 0 auto;
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+.div1 {
+    width: 40px;
+    height: 1px;
+    border: 1px solid grey;
+  }
+
+.badge {
+    text-decoration: none;
+    color: black;
+}
