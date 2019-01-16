@@ -20,6 +20,7 @@ h3 {
     letter-spacing: 1px;
 }
 
+
 p {
     padding-bottom:10px;
     font-family: 'Lato', sans-serif;
@@ -56,17 +57,26 @@ p {
     padding-left: 5px;
 }
 
-
-.navbar-nav {
+/* .navbar-nav {
     font-family: 'Lato', sans-serif;
 }
 
 .navbar-item {
     padding: 0px 0px 0px 20px;
+} */
+
+/* .nav-link {
+    font-family: 'Lato', sans-serif;
+} */
+
+.float-right {
+    background-color: transparent;
+    color: black;
+    font-family: 'Lato', sans-serif;
 }
 
-.nav-link {
-    font-family: 'Lato', sans-serif;
+.float-right:hover {
+    color: rgba(0, 0, 0, 0.493);
 }
 
 span.line {
@@ -82,7 +92,7 @@ span.h3 {
 }
 
 .inner img {
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 
 .inner:hover img {
@@ -131,7 +141,7 @@ section .row {
         font-size: 12px;
     }
 
-    .navbar-nav {
+    /* .navbar-nav {
         float: none;
         text-align: right;
         margin-top: 10px;
@@ -141,9 +151,14 @@ section .row {
         display: inline-block;
         float: none;
         padding-top: 10px;
+    } */
+
+    .float-right {
+        margin-top: 20px;
+        padding: 0px 0px 0px 30px;
     }
 
-    .navbar {
+     .navbar {
         margin: 20px 20px 20px 20px;
     }
     
@@ -184,7 +199,7 @@ section .row {
         font-size: 13px;
     }
 
-    .navbar-nav {
+    /* .navbar-nav {
         float: none;
         text-align: right;
         margin-top: 10px;
@@ -194,6 +209,11 @@ section .row {
         display: inline-block;
         float: none;
         padding-top: 10px;
+    } */
+
+    .float-right {
+        margin-top: 20px;
+        padding: 0px 0px 0px 30px;
     }
 
     .navbar {
@@ -233,7 +253,7 @@ section .row {
         margin-top: -10px;
         margin-bottom: -15px;
     }
-
+    
     .badge {
         font-size: 14px;
     }
