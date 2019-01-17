@@ -21,11 +21,17 @@ h3 {
 }
 
 
-p {
+.project-paragraph {
     padding-bottom:10px;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     letter-spacing: 1px;
+}
+
+.project-paragraph-about {
+    padding-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
 }
 
 .line-1 {
@@ -53,8 +59,23 @@ p {
     color:black;
 }
 
-.logo-text {
+/* .logo-text {
     padding-left: 5px;
+} */
+
+.btn-home {
+    padding: 0px 0px 0px 5px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    border: 0;
+    background-color: transparent;
+}
+
+.modal-body-about {
+    padding-top: 0px;
+    margin-top: 0px;
+    align-content: top;
 }
 
 /* .navbar-nav {
@@ -73,10 +94,11 @@ p {
     background-color: transparent;
     color: black;
     font-family: 'Lato', sans-serif;
+    color: rgb(0, 0, 0);
 }
 
 .float-right:hover {
-    color: rgba(0, 0, 0, 0.493);
+    color: rgba(0, 0, 0, 0.514);
 }
 
 span.line {
@@ -119,7 +141,7 @@ section .row {
 
 /* MEDIA QUERIES */
 
-/* Medium devices (tablets, 768px and up) */
+/* Medium devices (mobile, 768px and up) */
 @media (max-width: 768px) {
     .row {
         margin-top: 60px;
@@ -173,6 +195,10 @@ section .row {
         width: 35px;
         height: 20px
     }
+
+    .project-paragraph-about {
+        padding-top: 10px;
+    }
  }
 
 
@@ -213,7 +239,8 @@ section .row {
 
     .float-right {
         margin-top: 20px;
-        padding: 0px 0px 0px 30px;
+        margin-left: 30px;
+        padding: 0px 0px 0px 0px;
     }
 
     .navbar {
@@ -231,7 +258,11 @@ section .row {
         width: 35px;
         height: 20px
     }
-    
+
+    .project-paragraph-about {
+        padding-top: 5px;
+        padding-bottom:0px;
+    }
  }
 
 
